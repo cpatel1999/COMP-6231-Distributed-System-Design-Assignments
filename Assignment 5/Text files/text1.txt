@@ -1,0 +1,9 @@
+Each Reducer outputs one output file. The number of output files is dependent on number of Reducers.
+
+(A) Assuming you want to process all three input files in a single MapReduce Job.
+
+At the very minimum - you must set number of Reducers equal to the Number of Output Files you want.
+
+Since you are trying to do word-counts Per File. And not across Files. You will have to ensure that all the file contents (of one file) are processed by a Single Reducer. Using a Custom Partitioner is one way to do this.
+
+(B) Another way is to simply run your MapReduce Job Three Times. Once for Each Input File. And have Reducer count as 1.

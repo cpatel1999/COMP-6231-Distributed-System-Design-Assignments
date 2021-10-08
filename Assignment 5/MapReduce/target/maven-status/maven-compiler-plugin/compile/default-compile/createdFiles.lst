@@ -1,0 +1,3 @@
+WordCount.class
+WordCount$MyMapper.class
+WordCount$MyReducer.class

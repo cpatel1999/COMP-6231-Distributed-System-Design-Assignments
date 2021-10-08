@@ -1,0 +1,4 @@
+﻿  ConsoleApplication2.cpp
+C:\Users\CHARIT\source\repos\ConsoleApplication2\ConsoleApplication2.cpp(56,23): warning C4244: 'argument': conversion from 'time_t' to 'unsigned int', possible loss of data
+C:\Users\CHARIT\source\repos\ConsoleApplication2\ConsoleApplication2.cpp(28,45): warning C4101: 'dest': unreferenced local variable
+  ConsoleApplication2.vcxproj -> C:\Users\CHARIT\source\repos\ConsoleApplication2\Debug\ConsoleApplication2.exe
